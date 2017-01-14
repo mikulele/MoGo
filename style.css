@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+.header{
+	width: 100%;
+	background-color: red;
+	height: 500px;
+}
+.header .nav ul{
+	list-style: none;
+	display: inline-block;
+	width: 85%;
+}
+.header .nav ul li {
+	float: right;
+	padding:10px 10px;
+}
+.header .nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+}
+.banner h1{
+	color: #fff;
+	text-align: center;
+}
+.btn{
+	color: #fff;
+	border: 1px solid #fff;
+	padding:10px 20px;
+	text-align: center;
+	width: 10%;
+	margin: 0 auto;
+}
+.strip{
+	width: 100%;
+	margin-top: 150px;
+}
+.strip-col1{
+	margin: 0 auto;
+	width: 85%;
+}
+.strip-col{
+	width: 22%;
+	margin-left: 3%;
+	float: left;
+	display: inline-block;
+}
