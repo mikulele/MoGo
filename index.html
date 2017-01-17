@@ -4,21 +4,33 @@
 	<title>MoGo</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="header"><!--START HEADER-->
 		<div class="wrapper"><!--Start wrapper-->
 			<div class="nav"><!--START NAV-->
-				<ul>
-					<a href="#" style="color: #fff;"><b style="float: left; font-family: sans-serif;">MoGo</b></a>				
-					<li><a href="#"><i class="fa fa-search"></i></a></li>
-					<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-					<li><a href="#">CONTACT</a></li>
-					<li><a href="#">BLOG</a></li>
-					<li><a href="#">WORK</a></li>
-					<li><a href="#">SERVICE</a></li>
-					<li><a href="#">ABOUT</a></li>
+				<ul class="topnav">
+					<div class="err">
+						<a href="#" style="color: #fff;"><b style="float: left; font-family: sans-serif;">MoGo</b></a>			
+						<li><a href="#"><i class="fa fa-search"></i></a></li>
+						<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">WORK</a></li>
+						<li><a href="#">SERVICE</a></li>
+						<li><a href="#">ABOUT</a></li>
+					</div>
+					<li class="icon">
+    					<a href="javascript:void(0);" onclick="myFunction()" style="">☰</a>
+  					</li>
 				</ul>
+				<script>
+				function myFunction() {
+    				document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+				}
+ 
+ 				</script>
 			</div><!--END NAV-->
 		</div>
 
@@ -106,7 +118,7 @@
 		<div class="clear"></div>
 
 	<div class="bg"><!--Start bg-->
-		<div class="facts"><!--start facts-->
+		<div id="facts"><!--start facts-->
 			<div class="facts-col">
 				<div class="facts-col1" style="border-left: solid 1px #fff;"><b>42</b></div>
 				<div class="facts-col2" style="border-left: solid 1px #fff;margin-top: -25px;">WEB DESIGN PROJECT</div>
@@ -131,10 +143,21 @@
 	</div><!--end bg-->
 		<div class="clear"></div>
 
-	<div class="service"><!--Start service-->
-		<div class="service-col"><!--Start service-col-->
-			
-		</div><!--Start service-col-->
-	</div><!--end service-->
+	<div class="lorem">
+		<div class="content">		
+			<div class="colspan"><img src="img/lorem.jpg">
+			</div>
+			<div class="colspan">
+				<div class="lore1">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat."
+				</div>
+				<br>
+				<hr width="50px" style="margin-bottom: -14px; border: 1px red solid;">
+				<div class="jon" style="margin-left: 60px; font-size: 20px;">Jon Due</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

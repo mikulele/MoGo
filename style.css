@@ -40,6 +40,9 @@
 	font-size: .8em;
 	font-family: sans-serif;
 }
+.nav ul .icon{
+	display: none;
+}
 .nav ul li a:hover{
 	color: #fce38a;
 	display: inline-block;
@@ -179,3 +182,70 @@
 	font-size: 0.7em;
 }
 /*end bg*/
+.lorem{
+	width: 100%;
+	background-color: #f8f8f8;
+	margin-top: 50px;
+}
+.colspan img{
+	border: 2px solid #9affc5;
+	display: inline-block;
+	padding:20px 20px ;
+	margin-left: 50%	;
+}
+.colspan{
+	width: 50%;
+	float: left;
+}
+.content{
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+/*coba-coba responsive - gagal mode on */
+@media screen and (max-width: 1000px){
+	.header{
+		width: 100%;
+		height: 1000px;
+		background-repeat: no-repeat;
+		background-size: auto;
+	}
+}
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: -10px;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    background-color: #000;
+  }
+  .strip{
+  	width: 100%;
+  }
+  .strip-col{
+  	width: 100%;
+  	padding-top: 50px;
+  }
+  .gallery1, .gallery3, .gallery2{
+  	background-repeat: no-repeat;
+  	font-size: 18px;
+  }
+}
+/*end responsive*/
