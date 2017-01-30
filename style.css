@@ -119,7 +119,7 @@
 	margin: 0 auto;
 }
 .pics-col1{
-	width: 33.33%;
+	width: 33.333333%;
 	margin: 0 auto;
 	float: left;
 }
@@ -182,25 +182,153 @@
 	font-size: 0.7em;
 }
 /*end bg*/
-.lorem{
+
+
+/* start work */
+.work{
 	width: 100%;
-	background-color: #f8f8f8;
-	margin-top: 50px;
+	margin: 50px 0px;
 }
-.colspan img{
-	border: 2px solid #9affc5;
-	display: inline-block;
-	padding:20px 20px ;
-	margin-left: 50%	;
+.work2{
+	text-align: center;
 }
-.colspan{
-	width: 50%;
-	float: left;
+.bor{
+	width: 100%;
+	margin-top: 20px;
 }
-.content{
-	width: 70%;
+.border{
+	border: solid 2px #fb5050;
+	width: 50px;
 	margin: 0 auto;
 }
+.amazing-service{
+			width: 100%;
+			margin: 0px;
+		}
+		.amazing-service .conteiner{
+			width:80%;
+			margin: 0 auto;
+		}
+		.design{
+			width: 33.33%;
+			margin: 0 auto;
+			float: left;
+		}
+
+
+		ul{
+			width: 75%;
+			margin: 0 auto;
+		}
+		img{
+			float: left;
+			padding-top: 5px;
+		}
+		li{
+			padding-top: 5px;
+			list-style: none;
+		}
+/*End work*/
+
+/*start unique device*/
+	.unique-device{
+			background-image: url('img/bg.jpg');
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin-top: 100px;
+			height: 550px;
+		}
+		.uniq-1{
+			text-align: center;
+			padding-top: 50px;
+		}
+		.bann{
+			text-align: center;
+			background-image: url('img/ipod.jpg');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 300px;
+			padding-top: 110px;
+			height: 400px;
+		}
+		.ipod{
+			text-align: center;
+		}
+		.ged{
+			float: right;
+			margin-right: 30%;
+			margin-top: 50px;
+		}
+/*End unique device*/
+
+/* start service what*/
+.scrol{
+			overflow-y:scroll;
+			height: 140px;
+		}
+		.service-what{
+			width: 100%;
+			padding-top:50px; 
+		}
+		.kontent{
+			width: 80%;
+			margin: 0 auto;
+		}
+		.photography{
+			width: 50%;
+			float: left;
+		}
+		.konteiner{
+			text-align: center;
+		}
+		.photo{
+			padding-top: 70px;
+		}
+		.graphy{
+			text-align: left;
+			padding: 20px 0px;
+		}
+		.graphy li{
+			list-style: none;
+			float: left;
+		}
+/* end service what*/
+
+/*start quote*/
+		.quote1{
+			width: 100%;
+			margin-top: 50px;
+			background-color: #f8f8f8;
+			height: 200px;
+		}
+		.jon{
+			width: 80%;
+			margin: 0 auto;
+			padding-top: 50px;
+		}
+		.border1{
+			border: solid 2px #fb5050;
+			width: 50px;
+			margin-top: 8px;
+		}
+		.lor{
+			width: 13%;
+			float: left;
+		}
+		.img{
+			border: solid 2px #95e1d3;
+			padding: 20px 30px;
+			display: inline-block;
+			float: left;
+			margin-left: 20%;
+		}
+		.apalah{
+			width: 50%;
+			margin: 0 auto;
+			float: right;
+			margin-right: 150px;
+		}
+/*end quote*/
 
 
 /*coba-coba responsive - gagal mode on */
