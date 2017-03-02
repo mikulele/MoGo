@@ -5,6 +5,14 @@
 .clear{
 	clear: both;
 }
+@font-face{
+	font-family: "kaushan";
+	src:url('font/KaushanScript-Regular.ttf');
+}
+@font-face{
+	font-family: "monsterrat";
+	src:url('font/Montserrat-Regular.ttf');
+}
 
 	/* banner */
 .header{
@@ -17,7 +25,7 @@
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
-}
+}	
 .header .nav ul{
 	list-style: none;
 	display: inline-block;
@@ -194,12 +202,12 @@
 }
 .bor{
 	width: 100%;
-	margin-top: 20px;
 }
 .border{
 	border: solid 2px #fb5050;
 	width: 50px;
 	margin: 0 auto;
+	margin-top: 20px;
 }
 .amazing-service{
 			width: 100%;
@@ -330,9 +338,21 @@
 		}
 /*end quote*/
 
+/* start who-we-are*/
+
+.who-we-are{
+	width: 100%;
+	padding-top: 50px;
+}
+
+
+
+
+
+/*end who-we are*/
 
 /*coba-coba responsive - gagal mode on */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 680px){
 	.header{
 		width: 100%;
 		height: 1000px;
@@ -364,6 +384,10 @@
     margin-top: 5px;
     background-color: #000;
   }
+  .err{
+  	position: fixed;
+  	float: right;
+  }
   .strip{
   	width: 100%;
   }
@@ -371,9 +395,31 @@
   	width: 100%;
   	padding-top: 50px;
   }
+  .gallery1{
+  	font-size: 10px !important;
+  }
+  .super{
+  	margin-top: -15px;
+  }
+  .gallery2{
+  	height: 90px;
+  }
   .gallery1, .gallery3, .gallery2{
   	background-repeat: no-repeat;
   	font-size: 18px;
+  }
+  .facts-col{
+  	width: 100%;
+  }
+  .facts-col1, .facts-col2{
+  	margin-top: -50px;
+  }
+  .bg{
+  	display:block;
+  	margin-top: -50px;
+  }
+  .none{
+  	display: none;
   }
 }
 /*end responsive*/
