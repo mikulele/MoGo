@@ -19,7 +19,7 @@
 	width: 100%;
 	background-image: url('img/Untitled-1.jpg');
 	background-size: 100%;
-	height: 660px;
+	height: 680px;
 }
 .wrapper{
 	width: 80%;
@@ -344,6 +344,18 @@
 	width: 100%;
 	padding-top: 50px;
 }
+.copyright{
+	background:rgba(43, 41, 45, 0.92);
+	text-align: center;
+	padding-top: 20px;
+	display: block;
+	height: 50px;
+}
+.copyright a{
+	color: #fff;
+	text-decoration: none;
+	font-family: kaushan;
+}
 
 
 
@@ -375,8 +387,10 @@
     top: -10px;
   }
   ul.topnav.responsive li {
-    float: none;
+    float: right;
     display: inline;
+    width: 100%;
+    margin: 0 auto;
   }
   ul.topnav.responsive li a {
     display: block;
@@ -384,8 +398,17 @@
     margin-top: 5px;
     background-color: #000;
   }
+  .banner .creative{
+  	font-size: 20px !important;
+  }
+  .banner .to-mogo{
+  	font-size: 50px !important;
+  }
+  .btn{
+  	font-size: 10px !important;
+  }
   .err{
-  	position: fixed;
+  	position: absolute;
   	float: right;
   }
   .strip{
@@ -399,10 +422,11 @@
   	font-size: 10px !important;
   }
   .super{
-  	margin-top: -15px;
+  	font-size: 5px;
+  	margin-top: -40px;
   }
   .gallery2{
-  	height: 90px;
+  	height: 68px;
   }
   .gallery1, .gallery3, .gallery2{
   	background-repeat: no-repeat;
@@ -421,5 +445,69 @@
   .none{
   	display: none;
   }
-}
+  .conteiner{
+  	width: 100%;
+  }
+  .design{
+  	width: 100%;
+  	padding: 10px;
+  	border: solid 1px #ababab;
+  }
+  .hori hr{
+  	border: none;
+  }
+  .unique-device{
+  	width: 100%;
+  	background-size: 100%;
+  	height: 200px;
+  }
+  .uniq-1 .for-all{
+  	font-size: 13px;
+  	margin-top: -30px;
+  }
+  .uniq-1 .unique{
+  	font-size: 17px;
+  }
+  .bor .border{
+  	border: 1px solid #fb5050;
+  }
+  .bor{
+  	margin-top: -10px;
+  }
+  .bann .ged img {
+  	width: 50px;
+  	margin-top: 90px;  }
+  .bann{
+  	background-size: 100px;
+  	margin-top: -188px;
+  }
+  .photography {
+  	width: 100%;
+  }
+  .photography > img{
+  	width: 400px !important;
+  }
+  .graphy{
+  	margin: 10px 0px !important;
+  }
+  .graphy2{
+  	margin-top: 25px !important;
+  }
+  .quote1{
+  	height: 300px !important;
+  }
+  .jon{
+  	width: 100%;
+  	margin: 0 auto;
+  }
+  .img{
+  	padding: 20px 100px;
+  	margin-left: 
+  }
+  .apalah{
+  	width: 85%;
+  	margin: 0 auto;
+  	font-size: 15px;
+  }
+ }
 /*end responsive*/
